@@ -98,8 +98,8 @@ calculateBtn.addEventListener("click", () => {
   let height = heightInput.value;
   let weight = weightInput.value;
   
-  if (!heightInput.value) height = 0;
-  if (!weightInput.value) weight = 0;
+  if (!heightInput.value) height = "0";
+  if (!weightInput.value) weight = "0";
   
   if (height.endsWith(".")) {
     height += "0";

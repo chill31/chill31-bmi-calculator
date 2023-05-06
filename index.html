@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMI Calculator By Chill31</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1 class="title">BMI Calculator</h1>
+
+  <section class="keys">
+
+    <h2 class="key__title">Scoring</h2>
+
+    <span class="item">
+      <span class="item__score">
+        &lt;18.5
+      </span>
+      <span class="item__result">
+        Underweight
+      </span>
+    </span>
+    <span class="item">
+      <span class="item__score">
+        18.5–24.9
+      </span>
+      <span class="item__result">
+        Normal
+      </span>
+    </span>
+    <span class="item">
+      <span class="item__score">
+        25–29.9
+      </span>
+      <span class="item__result">
+        Overweight
+      </span>
+    </span>
+    <span class="item">
+      <span class="item__score">
+        >= 30
+      </span>
+      <span class="item__result">
+        Obesity
+      </span>
+    </span>
+
+  </section>
+
+  <main class="calculator">
+
+    <div class="calculator__item">
+
+      <span class="item__heading">Height</span>
+      <span class="item__input">
+
+        <input type="text" class="input input__height" placeholder="00">
+        <div class="input__types">
+          <span class="types__type types__height type__m type__active">M</span>
+          <span class="types__type types__height type__f">Feet</span>
+        </div>
+
+      </span>
+
+    </div>
+
+    <div class="calculator__item">
+
+      <span class="item__heading">Weight</span>
+      <span class="item__input">
+
+        <input type="text" class="input input__weight" placeholder="00">
+        <div class="input__types">
+          <span class="types__type types__weight type__k type__active">Kg</span>
+          <span class="types__type types__weight type__p">Lbs</span>
+        </div>
+
+      </span>
+
+    </div>
+
+    <div class="calculator__item">
+
+      <button class="btn__calculate">Calculate BMI</button>
+
+    </div>
+
+    <div class="calculator__score">
+
+      <span class="item__heading">Score:</span>
+      <span class="item__score">0.00</span>
+
+    </div>
+
+  </main>
+  
+  <script src="script.js"></script>
+</body>
+</html>
